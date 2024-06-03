@@ -44,7 +44,7 @@
         "**/GTAGS": true,
         "**/*.d": true,
         "**/*.o": true,
-        "**/*.bin": true,
+        "**/*.bin": false,
         "**/*.hex": true,
         "**/*.elf": true,
         "**/*.axf": true,
