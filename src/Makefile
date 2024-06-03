@@ -22,7 +22,7 @@ OPENCM3_DIR = ../libopencm3
 UF2_VERSION_BASE = $(shell git describe --dirty --always --tags)
 VER_FLAGS = -DUF2_VERSION='"$(UF2_VERSION_BASE)"'
 
-TARGET ?= BLUEPILL
+TARGET ?= DEEMEN17
 include targets.mk
 
 SRCS := $(wildcard *.c)
